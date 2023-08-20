@@ -38,7 +38,6 @@
 	Giá trị ADC đọc được lưu trong mảng ADC_Value[8] tương ứng PA0->PA7;
 ### PWM Note
 	Tần số 10kHZ
-	Dùng hàm USR1_Motor1_SetPWM(int32_t PWMVal);
 	PWMVal >0 Động cơ quay cùng chiều;
 	PWMVal <0 quay ngược lại;
 	-7200 < PWMVal <7200
